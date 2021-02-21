@@ -19,22 +19,7 @@
     position: relative;
 }
 
-.nav__notification-chat{
-    background-color: tomato;
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    /* nav_notification이 span이라서 width, height를 입력해도 변하지 않는다 따라서  display 를 설정 해주면 span도 width, height를 가진다.*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
-
-    /*span을 img위에 올리기 위해서 position을 만져준다*/
-    /* position : absolute는 가장 가까운 relative를 가진 부모 기준으로 움직인다. 따라서 nav__notification의 바로 직속 부모인 nav__list를 
-    position : relative로 바꿔주어야한다. 그렇지 않으면 nav의 body를 기준으로 움직인다.*/
+.nav__notification{
     position: absolute;
     left: 15px;
     bottom: 13px;
@@ -57,6 +42,6 @@
     /* position : absolute는 가장 가까운 relative를 가진 부모 기준으로 움직인다. 따라서 nav__notification의 바로 직속 부모인 nav__list를 
     position : relative로 바꿔주어야한다. 그렇지 않으면 nav의 body를 기준으로 움직인다.*/
     position: absolute;
-    left: 29px;
+    left: 28px;
     bottom: 20px;
 }
