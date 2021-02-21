@@ -2,12 +2,14 @@
     justify-content: space-between;
 }
 
+
 .user-component, .user-component__column:first-child{
     display: flex;
     align-items: center;
 }
 
-
+.user-component__column{
+}
 
 .user-component__avatar{
     width: 70px;
@@ -53,4 +55,8 @@
 .user-component__time{
     margin-bottom: 10px;
     display: block;
+}
+
+.user-component__margin-bottom{
+    margin-bottom: 5px;
 }
