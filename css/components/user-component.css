@@ -3,13 +3,12 @@
 }
 
 
+
 .user-component, .user-component__column:first-child{
     display: flex;
     align-items: center;
 }
 
-.user-component__column{
-}
 
 .user-component__avatar{
     width: 70px;
@@ -21,7 +20,9 @@
 .user-component__title{
     font-size: 22px;
     font-weight: 500;
+    color: black;
 }
+
 
 .user-component__subtitle{
     margin-top: 8px;
@@ -48,8 +49,6 @@
 .user-component__column:last-child{
     color: rgba(0,0,0,0.4);
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
 }
 
 .user-component__time{
@@ -60,3 +59,11 @@
 .user-component__margin-bottom{
     margin-bottom: 5px;
 }
+.user-component__column-timebadge:last-child{
+    color: rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
